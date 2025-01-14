@@ -1,6 +1,6 @@
 {
   "name": "indonesian-number-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reliable library to convert numerical values into their word equivalents in Bahasa Indonesia with high precision and no floating-point errors.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
