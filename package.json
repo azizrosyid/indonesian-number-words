@@ -1,0 +1,41 @@
+{
+  "name": "indonesian-number-words",
+  "version": "1.0.0",
+  "description": "Convert numerical values into their word equivalents in Bahasa Indonesia",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "number",
+    "words",
+    "bahasa indonesia",
+    "indonesian",
+    "number-to-words",
+    "terbilang",
+    "terbilang-ts"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/terbilang-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/terbilang-ts/issues"
+  },
+  "homepage": "https://github.com/yourusername/terbilang-ts#readme",
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
